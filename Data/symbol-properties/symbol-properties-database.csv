@@ -83,6 +83,7 @@ oanda,XPTUSD,cfd,Platinum,USD,1,0.001,1
 usa,[*],option,,USD,100,0.01,1
 
 usa,[*],equity,,USD,1,0.01,1
+uk,[*],equity,,GBP,1,0.01,1
 
 usa,[*],index,,USD,1,0.01,1
 usa,[*],indexoption,,USD,100,0.05,1

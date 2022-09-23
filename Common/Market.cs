@@ -65,7 +65,10 @@ namespace QuantConnect
             Tuple.Create(CFE, 33),
             Tuple.Create(FTX, 34),
             Tuple.Create(FTXUS, 35),
-            Tuple.Create(BinanceUS, 36)
+            Tuple.Create(BinanceUS, 36),
+
+            // CUSTOM MARKET
+            Tuple.Create(UK, 1000)
         };
 
         static Market()
@@ -77,6 +80,11 @@ namespace QuantConnect
                 ReverseMarkets[market.Item2] = market.Item1;
             }
         }
+
+        /// <summary>
+        /// UK Market
+        /// </summary>
+        public const string UK = "uk";
 
         /// <summary>
         /// USA Market
